@@ -60,6 +60,3 @@ python -m jmeter_auto_correlation.self_test
 - `self_test.py`: parser/sanitizer smoke test.
 - `tests/test_sanitizer.py`: pytest test for invalid XML numeric character references.
 
-## Notes
-
-The app still works the same way as the original script: it analyzes recorded JMX requests, detects dynamic-looking hardcoded values, adds Regex Extractors to inferred source samplers, and replaces target values with `${VARIABLE}` references.
