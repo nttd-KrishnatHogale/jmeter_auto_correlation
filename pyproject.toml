@@ -1,0 +1,14 @@
+[project]
+name = "jmeter-auto-correlation"
+version = "0.1.0"
+description = "Streamlit app for JMeter JMX auto-correlation candidate detection and Regex Extractor generation."
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "lxml",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

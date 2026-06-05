@@ -1,0 +1,5 @@
+streamlit
+pandas
+lxml
+pytest
+starlette==0.49.1
